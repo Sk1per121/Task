@@ -1,15 +1,17 @@
+body {
+    background: rgb(229, 229, 229);
+}
+
 .block {
     position: relative;
-    margin: 10px auto 10px auto;
+    margin: 15px auto 15px auto;
     padding: 5px;
-    min-width: 500px;
-    width: 30%;
+    width: 600px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 2px solid #f2e4e4;
-    border-radius: 10px;
-    background: #f2f2f2;
+    border-radius: 5px;
+    background: rgba(210, 210, 210, 0.3);
+    box-shadow: 0 0 10px 0;
     font-family: "Century Gothic", serif;
 }
 
@@ -17,7 +19,7 @@
     position: relative;
     font-size: 22px;
     text-align: center;
-    color: #b50000;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -25,16 +27,16 @@
     position: relative;
     width: 100%;
     margin: 16px 0 16px 0;
-    color: #980000;
+    color: #000000;
 }
 
 .result {
     position: relative;
     width: 98%;
-    background: #f6e1e1;
-    color: #b35454;
+    background: #cacaca;
+    color: #000000;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
     margin-bottom: 5px;
 }
